@@ -28,7 +28,7 @@
 - **ConstraintLayout**: 상하단 고정, 중앙 부분 스크롤.
 - **ListView** + **ChipGroup**: 다중 항목 선택 및 시각화.
 - **ScrollView**: 내용이 많을 때 세로 스크롤 지원.
-- **(추가 예정) Retrofit/Volley**: 백엔드 API 연동 시.
+
 
 ## 사용 방법
 1. **카테고리 토글 클릭** → 하위 항목 펼치기/접기.
@@ -43,6 +43,4 @@
 
 
 ## 향후 개선 사항
-- 서버 연동 (Retrofit, Room DB 등) 
 - UI 디자인 보완 (Material Design 적용)
-- 사용자별 알레르기 정보 동기화
