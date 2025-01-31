@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guru2.R
 
-class TimerFragment : AppCompatActivity() {
+class TimerActivity : AppCompatActivity() {
 
     private lateinit var timerText: TextView
     private lateinit var playButton: Button
@@ -21,7 +21,7 @@ class TimerFragment : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_timer)
+        setContentView(R.layout.activity_timer)
 
         // UI 요소 초기화
         timerText = findViewById(R.id.timerText)
